@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/RasPi_RosDriver/myled.ko := ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/ubuntu/RasPi_RosDriver/myled.ko /home/ubuntu/RasPi_RosDriver/myled.o /home/ubuntu/RasPi_RosDriver/myled.mod.o ;  true
